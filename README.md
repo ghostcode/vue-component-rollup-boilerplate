@@ -47,6 +47,8 @@ index.js:
   }
 ```
 
+注意：这里注册的组件名字最好和项目名一致，以免别人或自己使用的时候混淆。
+
 测试组件：
 
     vue serve ./src/vue-component.vue
@@ -97,4 +99,7 @@ package.json添加到scripts：
     npm login
     npm publish
 
-注：确保有npmjs的账户，没有去注册一个
+注：
+
+  1. 确保有npmjs的账户，没有去注册一个
+  2. 发布的项目名有可能被占用，修改后的项目名记得同步更改注册的组件名
